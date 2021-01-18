@@ -29,7 +29,7 @@
 // )
 
 
- data = d3.json("samples.json").then((d)=> console.log(d));
+d3.json("samples.json").then((d)=> console.log(d));
 
 //  dropdown menue 
 
